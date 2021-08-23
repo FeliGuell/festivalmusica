@@ -1,0 +1,38 @@
+.header{
+    background-color: $verde;
+    .contenido-header{ 
+     padding: $separacion/2 0;
+        @include tablet{
+                display: flex;
+                justify-content: space-between; 
+                align-items: center;
+        }
+    }
+    h1{
+        text-align: center;
+        color: $blanco;
+        margin-bottom: 1rem;
+        @include tablet{
+            margin-bottom: 0;
+        }
+    }
+    
+    &.fijo{
+        position: fixed;
+        width: 100%;
+        box-shadow:0 .3rem 0.4rem #444;
+    }
+}
+
+.navegacion-principal{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    a{
+        color: $blanco;
+        font-size: 2rem;
+            &:hover{
+                 color:$amarillo;
+        }
+    }
+}

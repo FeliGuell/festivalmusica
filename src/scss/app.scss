@@ -1,0 +1,17 @@
+@import 'bases/normalize.scss'; // ES IMPORTANTE EL ORDEN
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import 'bases/variables.scss';
+@import 'bases/mixins.scss';
+@import 'bases/globales.scss';
+@import 'bases/utilidades';
+
+
+
+@import 'layout/header.scss';
+@import 'layout/video.scss';
+@import 'layout/sobrefestival';
+@import 'layout/lineup';
+@import 'layout/galeria';
+@import 'layout/boletos';
+@import 'layout/footer';
+
